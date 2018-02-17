@@ -1,0 +1,48 @@
+.digit {
+	background-color: pink;
+	font-size: 2rem;
+	height: 55px;
+	width: 20%;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 1%;
+
+
+}
+
+.oper{
+	font-size: 2rem;
+	background-color: brown;
+	height: 55px;
+	width: 20%;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 1%;
+
+}
+
+.numbersOnly{
+
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	padding-left: 10%;
+	padding-top: 5%
+}
+
+#display {
+	width: 98%;
+	height: 30px;
+	background-color: grey;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.calculatordiv{
+
+	width: 50%;
+	height: 50%;
+	margin: auto;
+    border: 3px solid tan;
+    padding: 10px;
+	
+}

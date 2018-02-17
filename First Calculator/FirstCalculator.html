@@ -1,0 +1,48 @@
+
+<html>
+<head>
+    <title>Basic Calculator Practice</title>
+        <link rel="stylesheet" href="calculator.css" title="calc.css" type="text/css" media="screen" charset="utf-8">
+       
+</head>
+
+<body>
+	
+<div class ="calculatordiv">
+<form name="case">
+  <input name="display" id="display" value="">
+
+  <div class="numbersOnly">
+
+    <input type="button" class="digit" value="1" onclick="number1function()">
+    <input type="button" class="digit" value="2" onclick="number2function()">
+    <input type="button" class="digit" value="3" onclick="number3function()">
+    <input type="button" id="plus" 	class="oper" 	value="+"  onclick="PlusSign()">
+
+    <input type="button" class="digit" value="4" onclick="number4function()">
+    <input type="button" class="digit" value="5" onclick="number5function()">
+    <input type="button" class="digit" value="6" onclick="number6function()">
+    <input type="button" id="minus" 	class="oper" 	value="-" onclick="MinusSign()" >
+
+    <input type="button" class="digit" value="7" onclick="number7function()">
+    <input type="button" class="digit" value="8" onclick="number8function()">
+    <input type="button" class="digit" value="9" onclick="number9function()">
+    <input type="button" id="divide" 	class="oper" 	value="/" onclick="DivideSign()" >
+    
+    <input type="button" class="digit" value="0" onclick="number0function()">
+    <input type="button" id="clearMem" class="oper" value="C" onclick="CSign()">
+    
+ 
+	<input type="button" id="equal" 	class="oper"	value="=" onclick="EqualsSign()">
+    <input type="button" id="multiply" 	class="oper" 	value="*" onclick="MultiplySign()">
+
+  </div> 
+  </div>
+  </form>
+      
+ <script src="calculator.js" type="text/javascript">
+        </script>
+</body>
+
+
+
